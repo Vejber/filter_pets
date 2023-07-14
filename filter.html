@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="filter">
+            <div class="filter_group">
+                <h2>Вид животного</h2>
+
+                <div class="category-cat">
+                    <input type="checkbox" name="cat" id="cat">
+                    <label for="cat">Кошки</label>
+                </div>
+
+                <div class="category-dog">
+                    <input type="checkbox" name="dog" id="dog">
+                    <label for="cat">Собаки</label>
+                </div>
+
+                <div class="category-bird">
+                    <input type="checkbox" name="bird" id="bird">
+                    <label for="bird">Птицы</label>
+                </div>
+
+                <div class="category-other">
+                    <input type="checkbox" name="other" id="other">
+                    <label for="other">Другие животные</label>
+                </div>
+            </div>
+
+            <div class="filter_group">
+                <h2>Пол животного</h2>
+
+                <div class="sex-m">
+                    <input type="checkbox" name="male" id="male">
+                    <label for="male">Мальчики</label>
+                </div>
+                <div class="sex-f">
+                    <input type="checkbox" name="female" id="female">
+                    <label for="female">Девочки</label>
+                </div>
+            </div>
+
+            <div class="filter_group">
+                <h2>Возраст животного</h2>
+                <div class="age-baby">
+                    <input type="checkbox" name="baby" id="baby">
+                    <label for="baby">0-5 лет</label>
+                </div>
+                <div class="age-kid">
+                    <input type="checkbox" name="kid" id="kid">
+                    <label for="kid">5-10 лет</label>
+                </div>
+                <div class="age-adult">
+                    <input type="checkbox" name="adult" id="adult">
+                    <label for="adult">10-15 лет</label>
+                </div>
+                <div class="age-senior">
+                    <input type="checkbox" name="senior" id="senior">
+                    <label for="senior">Больше 15 лет</label>
+                </div>
+            </div>
+
+            <div class="filter_group">
+                <h2>Характер животного</h2>
+                <div class="character-playful">
+                    <input type="checkbox" name="playful" id="playful">
+                    <label for="playful">Игривый</label>
+                </div>
+                <div class="character-shy">
+                    <input type="checkbox" name="shy" id="shy">
+                    <label for="shy">Скромный</label>
+                </div>
+            </div>
+            <div class="buttons_filter">
+                <button class="submit">Submit</button>
+                <button class="clear">Clear</button>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card category-cat sex-f age-baby character-shy">
+                Кошка малыш скромная
+            </div>
+            <div class="card category-dog sex-m age-senior character-playful">
+                Пес старый игривый
+            </div>
+            <div class="card category-bird sex-f age-adult character-shy">
+                Птичка взрослая скромная
+            </div>
+            <div class="card category-other sex-m age-senior character-playful">
+                Крокодил старый игривый
+            </div>
+            <div class="card category-cat sex-m age-kid character-shy">
+                Кот ребенок скромный
+            </div>
+            <div class="card category-dog sex-f age-baby character-playful">
+                Собака малыш игривая
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

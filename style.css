@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.filter {
+    border: 1px solid black;
+    width: 25%;
+}
+
+.cards {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 30%;
+    height: 40%;
+    border: 1px solid green;
+}
